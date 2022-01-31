@@ -1,0 +1,11 @@
+[Unit]
+Description=Service to keep configuration synchronized
+
+[Service]
+ExecStart=/usr/bin/python3 /data/components/fmsync2/scripts/fmSync2.py sync
+Type=simple
+User=flowmon
+Group=flowmon
+
+[Install]
+WantedBy=multi-user.target

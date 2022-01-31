@@ -1,0 +1,11 @@
+[Unit]
+Description=Service to check if connection to master box is possible
+
+[Service]
+ExecStart=/data/components/fmsync2/scripts/fmlive.sh
+Type=simple
+User=flowmon
+Group=flowmon
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,32 @@
+Flowmon Sync script
+* 3.0
+- Flowmon ADS v11 is now supported for the synchronization
+- Flowmon ADS is also supported for the "HA" functionality
+
+* 2.7
+- Supports only DDD v5.3.0 or newer due to function change with segment update which won't trigger baseline reset
+
+* 2.6
+- fixed issue with sync of alerts
+- added support for manual switch over (changing function on both devices if they are reachable)
+
+* 2.5
+- added DDDv5 custom baselines and whitelists sync
+
+* 2.4
+- fixed sync for cases where the information isn't in persistent DB
+
+* 2.3
+- new option to keep syslog configuration on alerts on slave
+- new versions of libraries
+
+* 2.2
+ - rewritten control
+ - support for DDDv5
+ - fixes to some bugs discovered by GEANT
+
+* 2.1
+ - added FMC profiles and other parts
+
+* 2.0
+ - initial version 2 for DDD using API

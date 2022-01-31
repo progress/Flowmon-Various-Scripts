@@ -1,0 +1,4 @@
+/data/components/fmsync2/log/fmsync2.log {
+    missingok
+    notifempty
+}
