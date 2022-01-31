@@ -1,0 +1,2 @@
+hostname;timestamp;dskPercent;dskPercentNode;dstTPS;dskUtil;ssCpuUser;ssCpuSystem;diskIOAWaitAHour;memTotalFree;fps;udpBufferLost;flows;interfaceDrops1;interfaceDrops2;profilesNumber;channelsNumber
+tora.lab.brn.flowmon.com;2020-06-24_16-43-53;10%;1%;0.23;3.12;8.25;0.15;2.25;4420136;0;0;2760;;;2;2
