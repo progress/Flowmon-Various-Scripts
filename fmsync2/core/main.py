@@ -191,7 +191,7 @@ class main:
             master = adsMaster.get_event_reports()
             if master:
                 self.app.log.info('Performing switch over of ADS event reports at master')
-                for email in slave:
+                for email in master:
                     if state:
                         email['active'] = 1 if self.db.select_event_report_slave(email['id'])[0] else 0
                         adsMaster.change_event_report(email)
