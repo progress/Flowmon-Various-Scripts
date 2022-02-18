@@ -6,4 +6,4 @@ You can find a various script here which might ask for you as an example to buil
 - **card-stats** - these will print you receive stats of different cards
 - **fmsync2** - Python project to sync two Flowmon collectors settings
 - **permon** - scripts to monitor additional performance metrics currently not available at SNMP
-- **fpcleanup** script allows to delete all ADS false positive rules not used since set date
+- **fpcleanup** - script allows to delete all ADS false positive rules not used since set date
