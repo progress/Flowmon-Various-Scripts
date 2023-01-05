@@ -7,3 +7,5 @@ You can find a various script here which might work for you as an example to bui
 - **fmsync2** - Python project to sync two Flowmon collectors settings
 - **permon** - scripts to monitor additional performance metrics currently not available at SNMP
 - **fpcleanup** - script allows to delete all ADS false positive rules not used since set date
+- **endace** - Intergation fro Flowmon ADS to provide a link for Endace capture
+- **prtg** - Integration with PRTG for Flowmon Monitoring Centre and ADS
