@@ -14,3 +14,8 @@ quay.io/prometheus/node-exporter:latest \
 ```
 They have to be run by cron in regular intervals. As it is provided it expects to be run every 5 minutes.
 - **tora.lab.brn.flowmon.com_2020-06-24_16-43-53.csv** is an example output CSV file.
+
+## Usage
+There are two parametres at the begginging of the file. Number of litentning ports and exporters so please configur those properly.
+
+You could potentially also add additional information which can be interesting for you from logs like flows per listening port, source or some drops by listening ports. The format is really up to you   
