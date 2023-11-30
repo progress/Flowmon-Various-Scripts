@@ -10,3 +10,4 @@ You can find a various script here which might work for you as an example to bui
 - **endace** - Intergation fro Flowmon ADS to provide a link for Endace capture
 - **prtg** - Integration with PRTG for Flowmon Monitoring Centre and ADS
 - **telegram-messaging** - Script for Flowmon ADS which is sending events as messages to Telegram
+- **kafka-streming** - example script how to stream flow data aggregation to Kafka
