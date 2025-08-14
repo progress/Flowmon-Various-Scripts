@@ -1,9 +1,8 @@
 #!/bin/bash
 
-# This script is to create a file with performance stats in specific CSV format for
-# Orange SK
+# This script is to create a file with performance stats in specific CSV format
 # hostname	timestamp	dskPercent	dskPercentNode	ssCpuUser	ssCpuSystem	memTotalFree	diskIOUtilAHour	diskIOAWaitAHour	fps	udpBufferLost	flows	interfaceDrops1	interfaceDrops2	profilesNumber	channelsNumber
-# nbaprobe01-ba3	2020-06-08 11:45:00	80.1	75.6	80.5	90.4	80.1	 	 	 	 	 	4302	293
+# tora  2020-06-08 11:45:00	80.1	75.6	80.5	90.4	80.1	 	 	 	 	 	4302	293
 
 # Get hostname
 hs=`hostname`
