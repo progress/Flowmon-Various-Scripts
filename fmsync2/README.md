@@ -1,3 +1,6 @@
+**Important:** This script is kept here as and example and not all the parts are working with the latest version of Flowmon OS. It's currently unmaintained.
+***
+
 This script now implements API for DDD, FOS and ADS, to synchronize all required configuration.
 
 Its purpose is to have two Flowmon collectors works as a pair with sort of HA. It is expected to be deployed only on a single appliance working as backup and thus not sending any email alerts. Once you want you can switch it manually or automatically with a script to start also sending the notifications.
